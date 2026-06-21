@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adaptive Learning Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI-Based Adaptive Learning Dashboard</h1>
+
+    <label>Select Theme:</label>
+    <select id="themeSelect">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+
+    <br><br>
+
+    <label>Font Size:</label>
+    <select id="fontSelect">
+        <option value="normal">Normal</option>
+        <option value="large">Large</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="savePreferences()">Save Preferences</button>
+
+    <h2>Recommended Learning Content</h2>
+    <p id="recommendation">
+        Welcome! Select your preferences to receive personalized content.
+    </p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
